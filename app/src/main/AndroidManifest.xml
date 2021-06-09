@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caaimageguess">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:label="Guess?"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CaaImageGuess">
+
+        <!-- Launch Hint Activity -->
+        <activity
+            android:name=".Hint"
+            android:label="Hint"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caaimageguess.MainActivity" />
+        </activity> <!-- Launch CarMake Activity -->
+        <activity
+            android:name=".CarMake"
+            android:label="CarMake"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caaimageguess.MainActivity" />
+        </activity> <!-- Launch CarImage Activity -->
+        <activity
+            android:name=".CarImage"
+            android:label="CarImage"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caaimageguess.MainActivity" />
+        </activity> <!-- Launch CarImage Activity -->
+        <activity
+            android:name=".AdvanceLevel"
+            android:label="AdvanceLevel"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caaimageguess.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

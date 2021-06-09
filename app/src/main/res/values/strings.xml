@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Guess?</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+    <string name="advanced_level">Advanced Level.</string>
+    <string name="Image">CarMakeImage</string>
+    <string name="identify_the_make">Identify Car Make</string>
+    <string name="select_the_car_make">Select The Car Make</string>
+    <string name="CarImage">CarImage</string>
+    <string name="switch_timer">Timer</string>
+    <string name="guess_the_car_image">Guess The Car Image</string>
+    <string name="make1">CarMake1</string>
+    <string name="make2">CarMake2</string>
+    <string name="make3">CarMake2</string>
+    <string name="next">Next</string>
+    <string name="CarImage01">CarImage01</string>
+    <string name="Next">Next</string>
+    <string name="Make">Make</string>
+    <string name="Letter">Guess a letter</string>
+    <string name="CarName">CarName</string>
+    <string name="feedback">feedback</string>
+    <string name="submit">submit</string>
+    <string name="enter_a_letter">Guess a letter</string>
+    <string name="textview">text view</string>
+    <string name="a_random_car">A Random Car</string>
+    <string name="CORRECT">Correct!</string>
+    <string name="incorrect_guess">Incorrect guess!</string>
+    <string name="WRONG">Wrong!</string>
+    <string name="timestamp">_10</string>
+    <string name="car2">Car2</string>
+    <string name="car3">Car3</string>
+    <string name="Guess_A_Car">Enter the car make</string>
+    <string name="car1">Car1</string>
+    <string name="guess_car_makes_advance">Guess Car Make</string>
+    <string name="score">Score</string>
+    <string name="Scorevalue">0</string>
+    <string name="correct">correct</string>
+
+    <string-array name="make_array">
+        <item>bmw</item>
+        <item>ford</item>
+        <item>benz</item>
+    </string-array>
+</resources>
